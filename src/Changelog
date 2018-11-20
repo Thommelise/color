@@ -1,0 +1,4 @@
+## 19-11-2018
+### Added
+- Combobox with exsisting colours and the colours your adding.
+- Replaced integer with modolus in my mixWith method 
