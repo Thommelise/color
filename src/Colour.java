@@ -1,3 +1,5 @@
+
+
 public class Colour {
 
 
@@ -14,17 +16,6 @@ public class Colour {
         this.blue = blue;
     }
 
-    public void setRed(int red) {
-        this.red = red;
-    }
-
-    public void setGreen(int green) {
-        this.green = green;
-    }
-
-    public void setBlue(int blue) {
-        this.blue = blue;
-    }
 
     public int getRed() {
         return red;
@@ -51,8 +42,8 @@ public class Colour {
         blue = (int) ((blue + colour2.getBlue()) * 0.5);
     }
 
-    public Colour copy(){
-        return new Colour(this.red,this.green,this.blue);
+    public Colour copy() {
+        return new Colour(this.red, this.green, this.blue);
     }
 
     @Override
@@ -72,8 +63,7 @@ public class Colour {
 
     @Override
     public String toString() {
-        return "Colour{" +
-                "red=" + red +
+        return "red=" + red +
                 ", green=" + green +
                 ", blue=" + blue +
                 '}';

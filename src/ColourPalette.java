@@ -11,6 +11,7 @@ public class ColourPalette {
 
     public void addColour(Colour colour) {
         colours.add(colour);
+
     }
 
 
@@ -22,6 +23,7 @@ public class ColourPalette {
         }
         return null;
     }
+
     public List<Colour> getColor() {
         return colours;
     }
@@ -44,8 +46,8 @@ public class ColourPalette {
     }
 
 
-    public void mixColours(int index, Colour colour2) {
-        colours.get(index).mixWith(colour2);
+    public void mixColours(Colour colour1, Colour colour2) {
+        colour2.mixWith(colour1);
     }
 
     @Override
